@@ -4,10 +4,7 @@
 #include <stdarg.h>
 #include <errno.h>
 
-
-
-#define MAXLINE         1024
-#define max(a,b)        (((a) > (b)) ? (a) : (b))
+#define max(a,b)        ((a) > (b) ? (a) : (b))
 
 /* error ****************************************************************
  * <stdarg.h> <errorno.h> <string.h> <stdlib.h>
