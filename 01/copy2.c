@@ -5,6 +5,6 @@ int main()
 	int	c;
 	
 	while ((c = getc(stdin)) != EOF)
-		putc(stdout);
+		putc(c, stdout);
 	exit(0);	/* return 0;	*/
 }
